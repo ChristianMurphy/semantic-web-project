@@ -1,6 +1,7 @@
 # Created by https://www.gitignore.io/api/eclipse,intellij,linux,windows,osx,node
 
 ### CUSTOM ###
+catalog-v001.xml
 *.pdf
 *.doc
 *.ppt
