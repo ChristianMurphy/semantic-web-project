@@ -2,6 +2,11 @@
 
 Angular front-end for the Yummy Application.
 
+### Technology
+* [Angular JS](https://code.angularjs.org/1.4.8/docs/api/ng)
+* [Angular Router](https://code.angularjs.org/1.4.8/docs/api/ngRoute)
+* [Twitter Bootstrap](http://getbootstrap.com/)
+
 ### Testing
 Having an issue with code not working?
 A code linter is your best friend!
