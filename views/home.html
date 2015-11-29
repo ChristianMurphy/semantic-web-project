@@ -1,1 +1,51 @@
-{{ value }}
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<!--<h2>Search Recipe</h2>-->
+			<div id="custom-search-input">
+				<div class="input-group col-md-12">
+					<!--<input type="select" class="form-control input-lg" placeholder="Search Recipe"/>-->
+					<select ng-options="item as item.label for item in items track by item.id"
+							class="form-control input-lg" placeholder="Search Cuisine" ng-model="selected"></select>
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button" ng-click="getRecipe()">
+							<i class="glyphicon glyphicon-search"></i>
+						</button>
+                    </span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+		<ol class="carousel-indicators">
+
+			<li data-target="#myCarousel" ng-repeat="img in images" class="{active : (img === 0)}"
+				data-slide-to="{{img}}"></li>
+
+		</ol>
+
+		<div class="carousel-inner">
+
+			<div ng-class="{item: true, active : (img === 0)}" ng-repeat="img in images"><img
+				ng-src="{{uri}}/{{w}}/{{h}}/{{currentFolder}}/{{img}}" alt="Slide numder {{img}}">
+
+				<div class="container">
+
+					<div class="carousel-caption"></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span
+			class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel"
+																	role="button" data-slide="next"><span
+		class="glyphicon glyphicon-chevron-right"></span></a></div>
+
+
+</div>
