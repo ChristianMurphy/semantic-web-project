@@ -10,9 +10,9 @@ yummyApp.config(['$routeProvider',
 			templateUrl: 'views/home.html',
 			controller: 'HomeController'
 		})
-		.when('/dashboard', {
-			templateUrl: 'views/dashboard.html',
-			controller: 'DashboardController'
+		.when('/search', {
+			templateUrl: 'views/search.html',
+			controller: 'SearchController'
 		})
 		.otherwise({
 			redirectTo: '/'
