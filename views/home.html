@@ -1,7 +1,6 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>TESTS {{ JSON.stringify(items, null, 4) }}</h1>
 			<div id="custom-search-input">
 				<div class="input-group col-md-12">
 					<select ng-options="item.object.value for item in items" ng-model="query" class="form-control input-lg" placeholder="Search Cuisine" ng-model="selected"></select>
