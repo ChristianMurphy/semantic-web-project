@@ -23,47 +23,22 @@ yummyControllers.controller('HomeController', ['$scope', '$http', '$route', '$ro
 		};
 
 		// Dummy dropdown data for recipe
-		$scope.items = [
-			{
-				id: 0,
-				label: 'Search Cuisine',
-				subItem: {name: 'aSubItem'}
-			},
-			{
-				id: 1,
-				label: 'Mexican',
-				subItem: {name: 'aSubItem'}
-			}, {
-				id: 2,
-				label: 'Lebanese',
-				subItem: {name: 'bSubItem'}
-			},
-			{
-				id: 3,
-				label: 'Chinese',
-				subItem: {name: 'bSubItem'}
-			},
+		$scope.items = [];
 
-			{
-				id: 4,
-				label: 'Indian',
-				subItem: {name: 'bSubItem'}
-			},
-
-			{
-				id: 5,
-				label: 'Continental',
-				subItem: {name: 'bSubItem'}
-			}
-		];
-
-		// Setting the preloaded select recipe option, must be validated (opted out before sending HTTP request)
-		$scope.selected = $scope.items[0];
+		$.ajax({
+			url: 'http://159.203.251.131:8000/test2/query',
+			method: 'POST',
+			data: 'query=SELECT ?object WHERE {?subject <http://localhost:3333/hasCuisine> ?object} GROUP BY ?object'
+		})
+		.done(function (data) {
+			$scope.items = data.results.bindings;
+			$scope.$apply();
+		});
 
 		// Called on clicking search button
 		$scope.getRecipe = function () {
 			// Block for http request to fuseki server
-			$location.search('query', 'test');
+			$location.search('query', $scope.query.object.value);
 			$location.path('/search');
 		};
 	}
