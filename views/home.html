@@ -1,6 +1,10 @@
 <div class="container">
 	<div class="input-group">
-		<select ng-options="item.object.value for item in items" ng-model="query" class="form-control input-lg" placeholder="Search Cuisine" ng-model="selected"></select>
+		<select ng-options="item.object.value for item in items" ng-model="query" class="form-control input-lg" ng-model="selected">
+			<option value="" selected hidden>
+				Search Cuisine
+			</option>
+		</select>
 		<span class="input-group-btn">
 	        <button class="btn btn-default btn-lg" type="button" ng-click="getRecipe()">
 				<i class="glyphicon glyphicon-search"></i>
