@@ -22,7 +22,7 @@ yummyControllers.controller('HomeController', ['$scope', '$location',
 			return (folder === $scope.currentFolder) ? 'active' : '';
 		};
 
-		// Dummy dropdown data for recipe
+		// List cuisines
 		$scope.items = [];
 
 		$.ajax({
@@ -37,7 +37,7 @@ yummyControllers.controller('HomeController', ['$scope', '$location',
 
 		// Called on clicking search button
 		$scope.getRecipe = function () {
-			// Block for http request to fuseki server
+			// Transition to search results view
 			$location.search('query', $scope.query.object.value);
 			$location.path('/search');
 		};
@@ -46,6 +46,7 @@ yummyControllers.controller('HomeController', ['$scope', '$location',
 
 yummyControllers.controller('SearchController', ['$scope', '$routeParams',
 	function ($scope, $routeParams) {
+		// Search for results based on cuisine
 		$scope.items = [];
 		$.ajax({
 			url: 'http://159.203.251.131:8000/yummy/query',
