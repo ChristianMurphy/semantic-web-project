@@ -7,7 +7,9 @@
 	<tbody>
 		<tr ng-repeat="x in items">
 			<td>
-				{{ x.object }}
+				<a ng-href="#/dish?id={{x.dishid.value}}">
+					{{ x.name.value }}
+				</a>
 			</td>
 		</tr>
 	</tbody>

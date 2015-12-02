@@ -51,11 +51,17 @@ yummyControllers.controller('SearchController', ['$scope', '$routeParams',
 		$.ajax({
 			url: 'http://159.203.251.131:8000/yummy/query',
 			method: 'POST',
-			data: 'query=SELECT ?object WHERE {?subject <http://localhost:3333/hasCuisine> "' + $routeParams.query + '". ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?object} limit 25'
+			data: 'query=SELECT ?name ?dishid WHERE {?cuisine <http://localhost:3333/hasCuisine> "' + $routeParams.query + '". ?cuisine <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?dishid. ?dish <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?dishid. ?dish <http://127.0.0.1:3333/hasDishName> ?name.}'
 		})
 		.done(function (data) {
 			$scope.items = data.results.bindings;
 			$scope.$apply();
 		});
+	}
+]);
+
+yummyControllers.controller('DishController', ['$scope', '$routeParams',
+	function ($scope, $routeParams) {
+		$scope.id = $routeParams.id;
 	}
 ]);

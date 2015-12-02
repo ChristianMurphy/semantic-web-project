@@ -14,6 +14,10 @@ yummyApp.config(['$routeProvider',
 			templateUrl: 'views/search.html',
 			controller: 'SearchController'
 		})
+		.when('/dish', {
+			templateUrl: 'views/dish.html',
+			controller: 'DishController'
+		})
 		.otherwise({
 			redirectTo: '/'
 		});
