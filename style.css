@@ -2,7 +2,7 @@
 	padding: 3px;
 	border: solid 1px #E4E4E4;
 	border-radius: 6px;
-	background-color: #fff;
+	background-color: lavender;
 }
 
 #custom-search-input input{
@@ -23,7 +23,7 @@
 #custom-search-input button:hover{
 	border: 0;
 	box-shadow: none;
-	border-left: solid 1px #ccc;
+	border-left: solid 2px #ccc;
 }
 
 #custom-search-input .glyphicon-search{
@@ -32,7 +32,9 @@
 
 
 #title{
-	color:darkgoldenrod;
+
+	color:yellow;
+	background-color:steelblue ;
 }
 table,tr,td {
 	border: 2px solid grey;
@@ -42,4 +44,6 @@ table,tr,td {
 
 #results{
 	margin:10px;
+	color:midnightblue;
+	background-color:lightgoldenrodyellow;
 }

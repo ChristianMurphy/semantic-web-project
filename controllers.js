@@ -46,14 +46,14 @@ yummyControllers.controller('HomeController', ['$scope', '$http', '$route', '$ro
 
 yummyControllers.controller('SearchController', ['$scope','fusekiData',
 	function ($scope,fusekiData) {
-		$scope.value = 'Welcome to dashboard page.....Fuseki will return all the results here';
+		$scope.value = 'Here are your Query Results.....';
 		fusekiData.success(function(response) {
 			$scope.fusekiResults = response.results.bindings;
 		});
 	}
 ]);
 yummyApp.factory('fusekiData', function($http){
-	
+
 	var query = encodeURIComponent('SELECT ?subject ?predicate ?object WHERE { ?subject ?predicate ?object} LIMIT 25');
 	var endpoint = "http://159.203.251.131:8000/test/query";
 	return $http.get("http://159.203.251.131:8000/test/query?query="+query+"&output=json&stylesheet=")
