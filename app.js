@@ -19,9 +19,3 @@ yummyApp.config(['$routeProvider',
 		});
 	}
 ]);
-
-yummyApp.factory('fusekiData', function ($http) {
-	var query = encodeURIComponent('SELECT ?subject ?predicate ?object WHERE { ?subject ?predicate ?object} LIMIT 25');
-	var endpoint = 'http://159.203.251.131:8000/yummy/query';
-	return $http.get(endpoint + '?query=' + query + '&output=json&stylesheet=');
-});

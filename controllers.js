@@ -1,7 +1,7 @@
 var yummyControllers = angular.module('yummyControllers', []);
 
-yummyControllers.controller('HomeController', ['$scope', '$http', '$route', '$routeParams', '$location',
-	function ($scope, $http, $route, $routeParams, $location) {
+yummyControllers.controller('HomeController', ['$scope', '$location',
+	function ($scope, $location) {
 		$scope.value = 'home';
 
 		// Carousel code
@@ -44,10 +44,17 @@ yummyControllers.controller('HomeController', ['$scope', '$http', '$route', '$ro
 	}
 ]);
 
-yummyControllers.controller('SearchController', ['$scope', 'fusekiData',
-	function ($scope, fusekiData) {
-		fusekiData.success(function (response) {
-			$scope.fusekiResults = response.results.bindings;
+yummyControllers.controller('SearchController', ['$scope', '$routeParams',
+	function ($scope, $routeParams) {
+		$scope.items = [];
+		$.ajax({
+			url: 'http://159.203.251.131:8000/yummy/query',
+			method: 'POST',
+			data: 'query=SELECT ?object WHERE {?subject <http://localhost:3333/hasCuisine> "' + $routeParams.query + '". ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?object} limit 25'
+		})
+		.done(function (data) {
+			$scope.items = data.results.bindings;
+			$scope.$apply();
 		});
 	}
 ]);
