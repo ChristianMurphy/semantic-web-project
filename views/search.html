@@ -1,19 +1,27 @@
-
 {{ value }}
-<div id="results">
-	<table>
-		<thead>
-		<th>Subject</th>
-		<th>Predicate</th>
-		<th>Object</th>
-		</thead>
-		<tbody>
+<table class="table table-bordered table-hover">
+	<thead>
+		<th>
+			Subject
+		</th>
+		<th>
+			Predicate
+		</th>
+		<th>
+			Object
+		</th>
+	</thead>
+	<tbody>
 		<tr ng-repeat="x in fusekiResults">
-			<td>{{x.subject}}</td>
-			<td>{{x.predicate}}</td>
-			<td>{{x.object}}</td>
+			<td>
+				{{ x.subject }}
+			</td>
+			<td>
+				{{ x.predicate }}
+			</td>
+			<td>
+				{{ x.object }}
+			</td>
 		</tr>
-		</tbody>
-
-	</table>
-</div>
+	</tbody>
+</table>

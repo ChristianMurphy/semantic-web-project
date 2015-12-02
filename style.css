@@ -1,16 +1,16 @@
-#custom-search-input{
+#custom-search-input {
 	padding: 3px;
 	border: solid 1px #E4E4E4;
 	border-radius: 6px;
 	background-color: lavender;
 }
 
-#custom-search-input input{
+#custom-search-input input {
 	border: 0;
 	box-shadow: none;
 }
 
-#custom-search-input button{
+#custom-search-input button {
 	margin: 2px 0 0 0;
 	background: none;
 	box-shadow: none;
@@ -20,30 +20,17 @@
 	border-left: solid 1px #ccc;
 }
 
-#custom-search-input button:hover{
+#custom-search-input button:hover {
 	border: 0;
 	box-shadow: none;
 	border-left: solid 2px #ccc;
 }
 
-#custom-search-input .glyphicon-search{
+#custom-search-input .glyphicon-search {
 	font-size: 23px;
 }
 
 
-#title{
-
-	color:yellow;
-	background-color:steelblue ;
-}
-table,tr,td {
-	border: 2px solid grey;
-	padding: 20px;
-}
-
-
-#results{
-	margin:10px;
-	color:midnightblue;
-	background-color:lightgoldenrodyellow;
+#title {
+	color: #AA0;
 }
