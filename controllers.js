@@ -46,7 +46,6 @@ yummyControllers.controller('HomeController', ['$scope', '$http', '$route', '$ro
 
 yummyControllers.controller('SearchController', ['$scope', 'fusekiData',
 	function ($scope, fusekiData) {
-		$scope.value = 'Here are your Query Results.....';
 		fusekiData.success(function (response) {
 			$scope.fusekiResults = response.results.bindings;
 		});
