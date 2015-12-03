@@ -1,0 +1,293 @@
+<http://127.0.0.1:3333/0> <http://127.0.0.1:3333/hasDishID> "40989" .
+<http://127.0.0.1:3333/0> <http://127.0.0.1:3333/hasCuisine> "southern_us" .
+<http://127.0.0.1:3333/0> <http://127.0.0.1:3333/hasDishName> "Potato Salad" .
+<http://127.0.0.1:3333/0> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "low-fat mayonnaise" .
+<http://127.0.0.1:3333/1> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pepper" .
+<http://127.0.0.1:3333/2> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/3> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "baking potatoes" .
+<http://127.0.0.1:3333/4> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "eggs" .
+<http://127.0.0.1:3333/5> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "spicy brown mustard" .
+<http://127.0.0.1:3333/6> <http://127.0.0.1:3333/hasDishID> "29630" .
+<http://127.0.0.1:3333/6> <http://127.0.0.1:3333/hasCuisine> "chinese" .
+<http://127.0.0.1:3333/6> <http://127.0.0.1:3333/hasDishName> "Broccoli Treat" .
+<http://127.0.0.1:3333/6> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "sesame seeds" .
+<http://127.0.0.1:3333/7> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red pepper" .
+<http://127.0.0.1:3333/8> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "yellow peppers" .
+<http://127.0.0.1:3333/9> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "water" .
+<http://127.0.0.1:3333/10> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "extra firm tofu" .
+<http://127.0.0.1:3333/11> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "broccoli" .
+<http://127.0.0.1:3333/12> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "soy sauce" .
+<http://127.0.0.1:3333/13> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "orange bell pepper" .
+<http://127.0.0.1:3333/14> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "arrowroot powder" .
+<http://127.0.0.1:3333/15> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "fresh ginger" .
+<http://127.0.0.1:3333/16> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "sesame oil" .
+<http://127.0.0.1:3333/17> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red curry paste" .
+<http://127.0.0.1:3333/18> <http://127.0.0.1:3333/hasDishID> "36337" .
+<http://127.0.0.1:3333/18> <http://127.0.0.1:3333/hasCuisine> "indian" .
+<http://127.0.0.1:3333/18> <http://127.0.0.1:3333/hasDishName> "Biryani" .
+<http://127.0.0.1:3333/18> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "mint leaves" .
+<http://127.0.0.1:3333/19> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cilantro leaves" .
+<http://127.0.0.1:3333/20> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ghee" .
+<http://127.0.0.1:3333/21> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "tomatoes" .
+<http://127.0.0.1:3333/22> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cinnamon" .
+<http://127.0.0.1:3333/23> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "oil" .
+<http://127.0.0.1:3333/24> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "basmati rice" .
+<http://127.0.0.1:3333/25> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "garlic paste" .
+<http://127.0.0.1:3333/26> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/27> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "coconut milk" .
+<http://127.0.0.1:3333/28> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "clove" .
+<http://127.0.0.1:3333/29> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "bay leaves" .
+<http://127.0.0.1:3333/30> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "green chilies" .
+<http://127.0.0.1:3333/31> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "onions" .
+<http://127.0.0.1:3333/32> <http://127.0.0.1:3333/hasDishID> "15508" .
+<http://127.0.0.1:3333/32> <http://127.0.0.1:3333/hasCuisine> "mexican" .
+<http://127.0.0.1:3333/32> <http://127.0.0.1:3333/hasDishName> "Cinnamon Rolls" .
+<http://127.0.0.1:3333/32> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "vegetable oil" .
+<http://127.0.0.1:3333/33> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cinnamon sticks" .
+<http://127.0.0.1:3333/34> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "water" .
+<http://127.0.0.1:3333/35> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "all-purpose flour" .
+<http://127.0.0.1:3333/36> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "piloncillo" .
+<http://127.0.0.1:3333/37> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/38> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "orange zest" .
+<http://127.0.0.1:3333/39> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "baking powder" .
+<http://127.0.0.1:3333/40> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "hot water" .
+<http://127.0.0.1:3333/41> <http://127.0.0.1:3333/hasDishID> "34331" .
+<http://127.0.0.1:3333/41> <http://127.0.0.1:3333/hasCuisine> "greek" .
+<http://127.0.0.1:3333/41> <http://127.0.0.1:3333/hasDishName> "Potato Salad" .
+<http://127.0.0.1:3333/41> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red bell pepper" .
+<http://127.0.0.1:3333/42> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "garlic cloves" .
+<http://127.0.0.1:3333/43> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "extra-virgin olive oil" .
+<http://127.0.0.1:3333/44> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "feta cheese crumbles" .
+<http://127.0.0.1:3333/45> <http://127.0.0.1:3333/hasDishID> "47387" .
+<http://127.0.0.1:3333/45> <http://127.0.0.1:3333/hasCuisine> "greek" .
+<http://127.0.0.1:3333/45> <http://127.0.0.1:3333/hasDishName> "Cinnamon-Mint Treat" .
+<http://127.0.0.1:3333/45> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "milk" .
+<http://127.0.0.1:3333/46> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/47> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground cayenne pepper" .
+<http://127.0.0.1:3333/48> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground lamb" .
+<http://127.0.0.1:3333/49> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground cinnamon" .
+<http://127.0.0.1:3333/50> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground black pepper" .
+<http://127.0.0.1:3333/51> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pomegranate" .
+<http://127.0.0.1:3333/52> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "chopped fresh mint" .
+<http://127.0.0.1:3333/53> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pitas" .
+<http://127.0.0.1:3333/54> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground coriander" .
+<http://127.0.0.1:3333/55> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "fresh mint" .
+<http://127.0.0.1:3333/56> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground cumin" .
+<http://127.0.0.1:3333/57> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "kosher salt" .
+<http://127.0.0.1:3333/58> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "purple onion" .
+<http://127.0.0.1:3333/59> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "greek yogurt" .
+<http://127.0.0.1:3333/60> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "canola oil" .
+<http://127.0.0.1:3333/61> <http://127.0.0.1:3333/hasDishID> "12153" .
+<http://127.0.0.1:3333/61> <http://127.0.0.1:3333/hasCuisine> "korean" .
+<http://127.0.0.1:3333/61> <http://127.0.0.1:3333/hasDishName> "Vegetable Salad" .
+<http://127.0.0.1:3333/61> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red chili peppers" .
+<http://127.0.0.1:3333/62> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "sea salt" .
+<http://127.0.0.1:3333/63> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "onions" .
+<http://127.0.0.1:3333/64> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "water" .
+<http://127.0.0.1:3333/65> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "chilli bean sauce" .
+<http://127.0.0.1:3333/66> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "caster sugar" .
+<http://127.0.0.1:3333/67> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "garlic" .
+<http://127.0.0.1:3333/68> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "white vinegar" .
+<http://127.0.0.1:3333/69> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "chili oil" .
+<http://127.0.0.1:3333/70> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cucumber" .
+<http://127.0.0.1:3333/71> <http://127.0.0.1:3333/hasDishID> "41840" .
+<http://127.0.0.1:3333/71> <http://127.0.0.1:3333/hasCuisine> "southern_us" .
+<http://127.0.0.1:3333/71> <http://127.0.0.1:3333/hasDishName> "Cookie" .
+<http://127.0.0.1:3333/71> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "butter" .
+<http://127.0.0.1:3333/72> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "large eggs" .
+<http://127.0.0.1:3333/73> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cornmeal" .
+<http://127.0.0.1:3333/74> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "baking powder" .
+<http://127.0.0.1:3333/75> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "boiling water" .
+<http://127.0.0.1:3333/76> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "milk" .
+<http://127.0.0.1:3333/77> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/78> <http://127.0.0.1:3333/hasDishID> "6487" .
+<http://127.0.0.1:3333/78> <http://127.0.0.1:3333/hasCuisine> "chinese" .
+<http://127.0.0.1:3333/78> <http://127.0.0.1:3333/hasDishName> "Chicken-65" .
+<http://127.0.0.1:3333/78> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "honey" .
+<http://127.0.0.1:3333/79> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "chicken breast halves" .
+<http://127.0.0.1:3333/80> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cilantro leaves" .
+<http://127.0.0.1:3333/81> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "carrots" .
+<http://127.0.0.1:3333/82> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "soy sauce" .
+<http://127.0.0.1:3333/83> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "Sriracha" .
+<http://127.0.0.1:3333/84> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "wonton wrappers" .
+<http://127.0.0.1:3333/85> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "freshly ground pepper" .
+<http://127.0.0.1:3333/86> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "beansprouts" .
+<http://127.0.0.1:3333/87> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "fresh ginger" .
+<http://127.0.0.1:3333/88> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "shallots" .
+<http://127.0.0.1:3333/89> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "rice vinegar" .
+<http://127.0.0.1:3333/90> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red bell pepper" .
+<http://127.0.0.1:3333/91> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "kosher salt" .
+<http://127.0.0.1:3333/92> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "green onions" .
+<http://127.0.0.1:3333/93> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "napa cabbage" .
+<http://127.0.0.1:3333/94> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "garlic cloves" .
+<http://127.0.0.1:3333/95> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "canola oil" .
+<http://127.0.0.1:3333/96> <http://127.0.0.1:3333/hasDishID> "26646" .
+<http://127.0.0.1:3333/96> <http://127.0.0.1:3333/hasCuisine> "indian" .
+<http://127.0.0.1:3333/96> <http://127.0.0.1:3333/hasDishName> "Chicken Biryani" .
+<http://127.0.0.1:3333/96> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "curry powder" .
+<http://127.0.0.1:3333/97> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/98> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "chicken" .
+<http://127.0.0.1:3333/99> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "water" .
+<http://127.0.0.1:3333/100> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "vegetable oil" .
+<http://127.0.0.1:3333/101> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "basmati rice" .
+<http://127.0.0.1:3333/102> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "eggs" .
+<http://127.0.0.1:3333/103> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "finely chopped onion" .
+<http://127.0.0.1:3333/104> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "lemon juice" .
+<http://127.0.0.1:3333/105> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pepper" .
+<http://127.0.0.1:3333/106> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "mango chutney" .
+<http://127.0.0.1:3333/107> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "puff pastry" .
+<http://127.0.0.1:3333/108> <http://127.0.0.1:3333/hasDishID> "44798" .
+<http://127.0.0.1:3333/108> <http://127.0.0.1:3333/hasCuisine> "italian" .
+<http://127.0.0.1:3333/108> <http://127.0.0.1:3333/hasDishName> "fettuccine Pasta" .
+<http://127.0.0.1:3333/108> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "fettuccine pasta" .
+<http://127.0.0.1:3333/109> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "low-fat cream cheese" .
+<http://127.0.0.1:3333/110> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "garlic" .
+<http://127.0.0.1:3333/111> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "nonfat evaporated milk" .
+<http://127.0.0.1:3333/112> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "grated parmesan cheese" .
+<http://127.0.0.1:3333/113> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "corn starch" .
+<http://127.0.0.1:3333/114> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "nonfat milk" .
+<http://127.0.0.1:3333/115> <http://127.0.0.1:3333/hasDishID> "8089" .
+<http://127.0.0.1:3333/115> <http://127.0.0.1:3333/hasCuisine> "mexican" .
+<http://127.0.0.1:3333/115> <http://127.0.0.1:3333/hasDishName> "Mexican Treat" .
+<http://127.0.0.1:3333/115> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "chili powder" .
+<http://127.0.0.1:3333/116> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "worcestershire sauce" .
+<http://127.0.0.1:3333/117> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "celery" .
+<http://127.0.0.1:3333/118> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red kidney beans" .
+<http://127.0.0.1:3333/119> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "lean ground beef" .
+<http://127.0.0.1:3333/120> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "stewed tomatoes" .
+<http://127.0.0.1:3333/121> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "dried parsley" .
+<http://127.0.0.1:3333/122> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pepper" .
+<http://127.0.0.1:3333/123> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red wine vinegar" .
+<http://127.0.0.1:3333/124> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/125> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground cumin" .
+<http://127.0.0.1:3333/126> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "dried basil" .
+<http://127.0.0.1:3333/127> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red wine" .
+<http://127.0.0.1:3333/128> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red bell pepper" .
+<http://127.0.0.1:3333/129> <http://127.0.0.1:3333/hasDishID> "6153" .
+<http://127.0.0.1:3333/129> <http://127.0.0.1:3333/hasCuisine> "indian" .
+<http://127.0.0.1:3333/129> <http://127.0.0.1:3333/hasDishName> "Avial" .
+<http://127.0.0.1:3333/129> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "coconut" .
+<http://127.0.0.1:3333/130> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "unsweetened coconut milk" .
+<http://127.0.0.1:3333/131> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "mint leaves" .
+<http://127.0.0.1:3333/132> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "plain yogurt" .
+<http://127.0.0.1:3333/133> <http://127.0.0.1:3333/hasDishID> "25557" .
+<http://127.0.0.1:3333/133> <http://127.0.0.1:3333/hasCuisine> "irish" .
+<http://127.0.0.1:3333/133> <http://127.0.0.1:3333/hasDishName> "Potato-Ham" .
+<http://127.0.0.1:3333/133> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "rutabaga" .
+<http://127.0.0.1:3333/134> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ham" .
+<http://127.0.0.1:3333/135> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "thick-cut bacon" .
+<http://127.0.0.1:3333/136> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "potatoes" .
+<http://127.0.0.1:3333/137> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "fresh parsley" .
+<http://127.0.0.1:3333/138> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/139> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "onions" .
+<http://127.0.0.1:3333/140> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pepper" .
+<http://127.0.0.1:3333/141> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "carrots" .
+<http://127.0.0.1:3333/142> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pork sausages" .
+<http://127.0.0.1:3333/143> <http://127.0.0.1:3333/hasDishID> "24348" .
+<http://127.0.0.1:3333/143> <http://127.0.0.1:3333/hasCuisine> "italian" .
+<http://127.0.0.1:3333/143> <http://127.0.0.1:3333/hasDishName> "oregano spaghetti" .
+<http://127.0.0.1:3333/143> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "low-fat sour cream" .
+<http://127.0.0.1:3333/144> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "grated parmesan cheese" .
+<http://127.0.0.1:3333/145> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/146> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "dried oregano" .
+<http://127.0.0.1:3333/147> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "low-fat cottage cheese" .
+<http://127.0.0.1:3333/148> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "butter" .
+<http://127.0.0.1:3333/149> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "onions" .
+<http://127.0.0.1:3333/150> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "olive oil" .
+<http://127.0.0.1:3333/151> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "artichok heart marin" .
+<http://127.0.0.1:3333/152> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground cayenne pepper" .
+<http://127.0.0.1:3333/153> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground black pepper" .
+<http://127.0.0.1:3333/154> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "garlic" .
+<http://127.0.0.1:3333/155> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "spaghetti" .
+<http://127.0.0.1:3333/156> <http://127.0.0.1:3333/hasDishID> "7377" .
+<http://127.0.0.1:3333/156> <http://127.0.0.1:3333/hasCuisine> "mexican" .
+<http://127.0.0.1:3333/156> <http://127.0.0.1:3333/hasDishName> "chicken soup" .
+<http://127.0.0.1:3333/156> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "shredded cheddar cheese" .
+<http://127.0.0.1:3333/157> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "crushed cheese crackers" .
+<http://127.0.0.1:3333/158> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cheddar cheese soup" .
+<http://127.0.0.1:3333/159> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cream of chicken soup" .
+<http://127.0.0.1:3333/160> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "hot sauce" .
+<http://127.0.0.1:3333/161> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "diced green chilies" .
+<http://127.0.0.1:3333/162> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/163> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pepper" .
+<http://127.0.0.1:3333/164> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cooked chicken" .
+<http://127.0.0.1:3333/165> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "rotini" .
+<http://127.0.0.1:3333/166> <http://127.0.0.1:3333/hasDishID> "29109" .
+<http://127.0.0.1:3333/166> <http://127.0.0.1:3333/hasCuisine> "irish" .
+<http://127.0.0.1:3333/166> <http://127.0.0.1:3333/hasDishName> "oat meal" .
+<http://127.0.0.1:3333/166> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "light brown sugar" .
+<http://127.0.0.1:3333/167> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "granulated sugar" .
+<http://127.0.0.1:3333/168> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "butter" .
+<http://127.0.0.1:3333/169> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "warm water" .
+<http://127.0.0.1:3333/170> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "large eggs" .
+<http://127.0.0.1:3333/171> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "all-purpose flour" .
+<http://127.0.0.1:3333/172> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "whole wheat flour" .
+<http://127.0.0.1:3333/173> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "cooking spray" .
+<http://127.0.0.1:3333/174> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "boiling water" .
+<http://127.0.0.1:3333/175> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "steel-cut oats" .
+<http://127.0.0.1:3333/176> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "dry yeast" .
+<http://127.0.0.1:3333/177> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/178> <http://127.0.0.1:3333/hasDishID> "11462" .
+<http://127.0.0.1:3333/178> <http://127.0.0.1:3333/hasCuisine> "italian" .
+<http://127.0.0.1:3333/178> <http://127.0.0.1:3333/hasDishName> "broccoli florets" .
+<http://127.0.0.1:3333/178> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "KRAFT Zesty Italian Dressing" .
+<http://127.0.0.1:3333/179> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "purple onion" .
+<http://127.0.0.1:3333/180> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "broccoli florets" .
+<http://127.0.0.1:3333/181> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "rotini" .
+<http://127.0.0.1:3333/182> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "pitted black olives" .
+<http://127.0.0.1:3333/183> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "Kraft Grated Parmesan Cheese" .
+<http://127.0.0.1:3333/184> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "red pepper" .
+<http://127.0.0.1:3333/185> <http://127.0.0.1:3333/hasDishID> "2238" .
+<http://127.0.0.1:3333/185> <http://127.0.0.1:3333/hasCuisine> "irish" .
+<http://127.0.0.1:3333/185> <http://127.0.0.1:3333/hasDishName> "Irish Delight" .
+<http://127.0.0.1:3333/185> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "eggs" .
+<http://127.0.0.1:3333/186> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "citrus fruit" .
+<http://127.0.0.1:3333/187> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "raisins" .
+<http://127.0.0.1:3333/188> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "sourdough starter" .
+<http://127.0.0.1:3333/189> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "flour" .
+<http://127.0.0.1:3333/190> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "hot tea" .
+<http://127.0.0.1:3333/191> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "sugar" .
+<http://127.0.0.1:3333/192> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground nutmeg" .
+<http://127.0.0.1:3333/193> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/194> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground cinnamon" .
+<http://127.0.0.1:3333/195> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "milk" .
+<http://127.0.0.1:3333/196> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "butter" .
+<http://127.0.0.1:3333/197> <http://127.0.0.1:3333/hasDishID> "41882" .
+<http://127.0.0.1:3333/197> <http://127.0.0.1:3333/hasCuisine> "chinese" .
+<http://127.0.0.1:3333/197> <http://127.0.0.1:3333/hasDishName> "Mandarin Chicken" .
+<http://127.0.0.1:3333/197> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "boneless chicken skinless thigh" .
+<http://127.0.0.1:3333/198> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "minced garlic" .
+<http://127.0.0.1:3333/199> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "steamed white rice" .
+<http://127.0.0.1:3333/200> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "baking powder" .
+<http://127.0.0.1:3333/201> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "corn starch" .
+<http://127.0.0.1:3333/202> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "dark soy sauce" .
+<http://127.0.0.1:3333/203> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "kosher salt" .
+<http://127.0.0.1:3333/204> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "peanuts" .
+<http://127.0.0.1:3333/205> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "flour" .
+<http://127.0.0.1:3333/206> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "scallions" .
+<http://127.0.0.1:3333/207> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "Chinese rice vinegar" .
+<http://127.0.0.1:3333/208> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "vodka" .
+<http://127.0.0.1:3333/209> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "fresh ginger" .
+<http://127.0.0.1:3333/210> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "egg whites" .
+<http://127.0.0.1:3333/211> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "broccoli" .
+<http://127.0.0.1:3333/212> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "toasted sesame seeds" .
+<http://127.0.0.1:3333/213> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "sugar" .
+<http://127.0.0.1:3333/214> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "store bought low sodium chicken stock" .
+<http://127.0.0.1:3333/215> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "baking soda" .
+<http://127.0.0.1:3333/216> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "Shaoxing wine" .
+<http://127.0.0.1:3333/217> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "oil" .
+<http://127.0.0.1:3333/218> <http://127.0.0.1:3333/hasDishID> "2362" .
+<http://127.0.0.1:3333/218> <http://127.0.0.1:3333/hasCuisine> "mexican" .
+<http://127.0.0.1:3333/218> <http://127.0.0.1:3333/hasDishName> "jalapeno bell pepper Treat" .
+<http://127.0.0.1:3333/218> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "green chile" .
+<http://127.0.0.1:3333/219> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "jalapeno chilies" .
+<http://127.0.0.1:3333/220> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "onions" .
+<http://127.0.0.1:3333/221> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "ground black pepper" .
+<http://127.0.0.1:3333/222> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "salt" .
+<http://127.0.0.1:3333/223> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "chopped cilantro fresh" .
+<http://127.0.0.1:3333/224> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "green bell pepper" .
+<http://127.0.0.1:3333/225> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "garlic" .
+<http://127.0.0.1:3333/226> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "white sugar" .
+<http://127.0.0.1:3333/227> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "roma tomatoes" .
+<http://127.0.0.1:3333/228> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "celery" .
+<http://127.0.0.1:3333/229> <http://www.semanticweb.org/team-1/yummy-app#hasIngredient> "dried oregano" .

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/0">
+	<hasDishID xmlns="http://127.0.0.1:3333/">40989</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">southern_us</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Potato Salad</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">low-fat mayonnaise</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/1">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/2">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/3">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">baking potatoes</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/4">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">eggs</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/5">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">spicy brown mustard</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/6">
+	<hasDishID xmlns="http://127.0.0.1:3333/">29630</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">chinese</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Broccoli Treat</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">sesame seeds</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/7">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/8">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">yellow peppers</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/9">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/10">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">extra firm tofu</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/11">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">broccoli</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/12">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">soy sauce</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/13">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">orange bell pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/14">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">arrowroot powder</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/15">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">fresh ginger</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/16">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">sesame oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/17">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red curry paste</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/18">
+	<hasDishID xmlns="http://127.0.0.1:3333/">36337</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">indian</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Biryani</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">mint leaves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/19">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cilantro leaves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/20">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ghee</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/21">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">tomatoes</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/22">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cinnamon</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/23">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/24">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">basmati rice</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/25">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">garlic paste</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/26">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/27">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">coconut milk</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/28">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">clove</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/29">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">bay leaves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/30">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">green chilies</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/31">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">onions</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/32">
+	<hasDishID xmlns="http://127.0.0.1:3333/">15508</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">mexican</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Cinnamon Rolls</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">vegetable oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/33">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cinnamon sticks</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/34">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/35">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">all-purpose flour</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/36">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">piloncillo</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/37">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/38">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">orange zest</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/39">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">baking powder</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/40">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">hot water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/41">
+	<hasDishID xmlns="http://127.0.0.1:3333/">34331</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">greek</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Potato Salad</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red bell pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/42">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">garlic cloves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/43">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">extra-virgin olive oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/44">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">feta cheese crumbles</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/45">
+	<hasDishID xmlns="http://127.0.0.1:3333/">47387</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">greek</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Cinnamon-Mint Treat</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">milk</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/46">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/47">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground cayenne pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/48">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground lamb</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/49">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground cinnamon</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/50">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground black pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/51">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pomegranate</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/52">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">chopped fresh mint</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/53">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pitas</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/54">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground coriander</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/55">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">fresh mint</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/56">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground cumin</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/57">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">kosher salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/58">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">purple onion</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/59">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">greek yogurt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/60">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">canola oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/61">
+	<hasDishID xmlns="http://127.0.0.1:3333/">12153</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">korean</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Vegetable Salad</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red chili peppers</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/62">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">sea salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/63">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">onions</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/64">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/65">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">chilli bean sauce</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/66">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">caster sugar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/67">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">garlic</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/68">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">white vinegar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/69">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">chili oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/70">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cucumber</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/71">
+	<hasDishID xmlns="http://127.0.0.1:3333/">41840</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">southern_us</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Cookie</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">butter</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/72">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">large eggs</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/73">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cornmeal</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/74">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">baking powder</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/75">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">boiling water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/76">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">milk</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/77">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/78">
+	<hasDishID xmlns="http://127.0.0.1:3333/">6487</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">chinese</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Chicken-65</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">honey</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/79">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">chicken breast halves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/80">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cilantro leaves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/81">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">carrots</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/82">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">soy sauce</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/83">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">Sriracha</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/84">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">wonton wrappers</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/85">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">freshly ground pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/86">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">beansprouts</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/87">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">fresh ginger</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/88">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">shallots</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/89">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">rice vinegar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/90">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red bell pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/91">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">kosher salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/92">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">green onions</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/93">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">napa cabbage</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/94">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">garlic cloves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/95">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">canola oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/96">
+	<hasDishID xmlns="http://127.0.0.1:3333/">26646</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">indian</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Chicken Biryani</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">curry powder</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/97">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/98">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">chicken</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/99">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/100">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">vegetable oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/101">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">basmati rice</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/102">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">eggs</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/103">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">finely chopped onion</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/104">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">lemon juice</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/105">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/106">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">mango chutney</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/107">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">puff pastry</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/108">
+	<hasDishID xmlns="http://127.0.0.1:3333/">44798</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">italian</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">fettuccine Pasta</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">fettuccine pasta</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/109">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">low-fat cream cheese</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/110">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">garlic</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/111">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">nonfat evaporated milk</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/112">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">grated parmesan cheese</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/113">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">corn starch</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/114">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">nonfat milk</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/115">
+	<hasDishID xmlns="http://127.0.0.1:3333/">8089</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">mexican</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Mexican Treat</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">chili powder</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/116">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">worcestershire sauce</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/117">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">celery</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/118">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red kidney beans</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/119">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">lean ground beef</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/120">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">stewed tomatoes</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/121">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">dried parsley</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/122">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/123">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red wine vinegar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/124">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/125">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground cumin</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/126">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">dried basil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/127">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red wine</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/128">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red bell pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/129">
+	<hasDishID xmlns="http://127.0.0.1:3333/">6153</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">indian</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Avial</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">coconut</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/130">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">unsweetened coconut milk</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/131">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">mint leaves</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/132">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">plain yogurt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/133">
+	<hasDishID xmlns="http://127.0.0.1:3333/">25557</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">irish</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Potato-Ham</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">rutabaga</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/134">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ham</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/135">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">thick-cut bacon</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/136">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">potatoes</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/137">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">fresh parsley</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/138">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/139">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">onions</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/140">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/141">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">carrots</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/142">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pork sausages</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/143">
+	<hasDishID xmlns="http://127.0.0.1:3333/">24348</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">italian</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">oregano spaghetti</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">low-fat sour cream</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/144">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">grated parmesan cheese</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/145">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/146">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">dried oregano</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/147">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">low-fat cottage cheese</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/148">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">butter</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/149">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">onions</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/150">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">olive oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/151">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">artichok heart marin</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/152">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground cayenne pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/153">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground black pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/154">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">garlic</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/155">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">spaghetti</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/156">
+	<hasDishID xmlns="http://127.0.0.1:3333/">7377</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">mexican</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">chicken soup</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">shredded cheddar cheese</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/157">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">crushed cheese crackers</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/158">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cheddar cheese soup</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/159">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cream of chicken soup</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/160">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">hot sauce</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/161">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">diced green chilies</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/162">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/163">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/164">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cooked chicken</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/165">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">rotini</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/166">
+	<hasDishID xmlns="http://127.0.0.1:3333/">29109</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">irish</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">oat meal</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">light brown sugar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/167">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">granulated sugar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/168">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">butter</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/169">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">warm water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/170">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">large eggs</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/171">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">all-purpose flour</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/172">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">whole wheat flour</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/173">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">cooking spray</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/174">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">boiling water</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/175">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">steel-cut oats</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/176">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">dry yeast</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/177">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/178">
+	<hasDishID xmlns="http://127.0.0.1:3333/">11462</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">italian</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">broccoli florets</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">KRAFT Zesty Italian Dressing</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/179">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">purple onion</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/180">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">broccoli florets</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/181">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">rotini</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/182">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">pitted black olives</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/183">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">Kraft Grated Parmesan Cheese</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/184">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">red pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/185">
+	<hasDishID xmlns="http://127.0.0.1:3333/">2238</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">irish</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Irish Delight</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">eggs</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/186">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">citrus fruit</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/187">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">raisins</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/188">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">sourdough starter</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/189">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">flour</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/190">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">hot tea</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/191">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">sugar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/192">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground nutmeg</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/193">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/194">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground cinnamon</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/195">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">milk</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/196">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">butter</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/197">
+	<hasDishID xmlns="http://127.0.0.1:3333/">41882</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">chinese</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">Mandarin Chicken</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">boneless chicken skinless thigh</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/198">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">minced garlic</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/199">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">steamed white rice</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/200">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">baking powder</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/201">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">corn starch</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/202">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">dark soy sauce</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/203">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">kosher salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/204">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">peanuts</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/205">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">flour</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/206">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">scallions</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/207">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">Chinese rice vinegar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/208">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">vodka</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/209">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">fresh ginger</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/210">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">egg whites</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/211">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">broccoli</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/212">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">toasted sesame seeds</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/213">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">sugar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/214">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">store bought low sodium chicken stock</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/215">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">baking soda</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/216">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">Shaoxing wine</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/217">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">oil</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/218">
+	<hasDishID xmlns="http://127.0.0.1:3333/">2362</hasDishID>
+	<hasCuisine xmlns="http://127.0.0.1:3333/">mexican</hasCuisine>
+	<hasDishName xmlns="http://127.0.0.1:3333/">jalapeno bell pepper Treat</hasDishName>
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">green chile</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/219">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">jalapeno chilies</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/220">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">onions</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/221">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">ground black pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/222">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">salt</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/223">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">chopped cilantro fresh</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/224">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">green bell pepper</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/225">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">garlic</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/226">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">white sugar</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/227">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">roma tomatoes</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/228">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">celery</hasIngredient>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/229">
+	<hasIngredient xmlns="http://www.semanticweb.org/team-1/yummy-app#">dried oregano</hasIngredient>
+</rdf:Description>
+
+</rdf:RDF>
