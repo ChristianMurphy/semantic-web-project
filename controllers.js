@@ -62,6 +62,16 @@ yummyControllers.controller('SearchController', ['$scope', '$routeParams',
 
 yummyControllers.controller('DishController', ['$scope', '$routeParams',
 	function ($scope, $routeParams) {
-		$scope.id = $routeParams.id;
+		// Find Dish Details
+		$scope.items = [];
+		$.ajax({
+			url: 'http://159.203.251.131:8000/yummy/query',
+			method: 'POST',
+			data: 'query=SELECT ?attribute ?value WHERE {?dish <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "' + $routeParams.id + '". ?dish ?attribute ?value.}'
+		})
+		.done(function (data) {
+			$scope.items = data.results.bindings;
+			$scope.$apply();
+		});
 	}
 ]);

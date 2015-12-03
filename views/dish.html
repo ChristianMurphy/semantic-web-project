@@ -1,3 +1,20 @@
-Coming Soon!
-
-Page for Dish id {{ id }}
+<table class="table table-bordered table-hover">
+	<thead>
+		<th>
+			Attribute
+		</th>
+		<th>
+			Value
+		</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="x in items">
+			<td>
+				{{ x.attribute.value }}
+			</td>
+			<td>
+				{{ x.value.value }}
+			</td>
+		</tr>
+	</tbody>
+</table>
