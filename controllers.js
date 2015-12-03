@@ -28,7 +28,7 @@ yummyControllers.controller('HomeController', ['$scope', '$location',
 		$.ajax({
 			url: 'http://159.203.251.131:8000/yummy/query',
 			method: 'POST',
-			data: 'query=SELECT ?object WHERE {?subject <http://localhost:3333/hasCuisine> ?object} GROUP BY ?object'
+			data: 'query=SELECT DISTINCT ?object WHERE {{?subject <http://localhost:3333/hasCuisine> ?object} UNION {?subject <http://127.0.0.1:3333/hasCuisine> ?object}}'
 		})
 		.done(function (data) {
 			$scope.items = data.results.bindings;
@@ -51,7 +51,7 @@ yummyControllers.controller('SearchController', ['$scope', '$routeParams',
 		$.ajax({
 			url: 'http://159.203.251.131:8000/yummy/query',
 			method: 'POST',
-			data: 'query=SELECT ?name ?dishid WHERE {?cuisine <http://localhost:3333/hasCuisine> "' + $routeParams.query + '". ?cuisine <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?dishid. ?dish <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?dishid. ?dish <http://127.0.0.1:3333/hasDishName> ?name.}'
+			data: 'query=SELECT DISTINCT ?name ?dishid WHERE {{?cuisine <http://localhost:3333/hasCuisine> "' + $routeParams.query + '"} UNION {?cuisine <http://127.0.0.1:3333/hasCuisine> "' + $routeParams.query + '"}. ?cuisine <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?dishid. ?dish <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?dishid. ?dish <http://127.0.0.1:3333/hasDishName> ?name.}'
 		})
 		.done(function (data) {
 			$scope.items = data.results.bindings;
