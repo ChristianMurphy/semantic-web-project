@@ -150,7 +150,7 @@ yummyControllers.controller('DishController', ['$scope', '$routeParams',
 		$.ajax({
 			url: 'http://159.203.251.131:8000/yummy/query',
 			method: 'POST',
-			data: 'query=SELECT ?nutrient ?nutritionContent WHERE {?dish <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "' + $routeParams.id + '". ?dish ?nutrient ?nutritionContent.}'
+			data: 'query=SELECT DISTINCT ?nutrient ?nutritionContent WHERE {?dish <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "' + $routeParams.id + '". ?dish ?nutrient ?nutritionContent.}'
 		})
 		.done(function (data) {
 			$scope.items = data.results.bindings;
