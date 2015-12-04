@@ -127,6 +127,7 @@ yummyControllers.controller('SearchController', ['$scope', '$routeParams',
 	function ($scope, $routeParams) {
 		// Search for results based on cuisine
 		$scope.items = [];
+		$scope.noDishFlag = false;
 		$.ajax({
 			url: 'http://159.203.251.131:8000/yummy/query',
 			method: 'POST',
@@ -134,6 +135,9 @@ yummyControllers.controller('SearchController', ['$scope', '$routeParams',
 		})
 		.done(function (data) {
 			$scope.items = data.results.bindings;
+			if($scope.items.length == 0){
+				$scope.noDishFlag = true;
+			}
 			$scope.$apply();
 		});
 	}
