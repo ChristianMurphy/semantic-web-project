@@ -8,9 +8,9 @@
 		</th>
 	</thead>
 	<tbody>
-		<tr ng-repeat="x in items">
+		<tr ng-repeat="x in items | allowedPredicates">
 			<td>
-				{{ x.attribute.value }}
+				{{ x.attribute.value | properName }}
 			</td>
 			<td>
 				{{ x.value.value }}

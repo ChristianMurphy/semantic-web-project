@@ -1,6 +1,6 @@
-var yummyApp = angular.module('yummy', [
+var yummyApp = angular.module('Yummy', [
 	'ngRoute',
-	'yummyControllers'
+	'YummyControllers'
 ]);
 
 yummyApp.config(['$routeProvider',
