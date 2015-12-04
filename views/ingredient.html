@@ -1,0 +1,20 @@
+<table class="table table-bordered table-hover">
+	<thead>
+	<th>
+		Nutrient
+	</th>
+	<th>
+		Nutrition Content
+	</th>
+	</thead>
+	<tbody>
+	<tr ng-repeat="x in items | allowedPredicates">
+		<td>
+			{{ x.nutrient.value | properName }}
+		</td>
+		<td>
+			{{ x.nutritionContent.value }}
+		</td>
+	</tr>
+	</tbody>
+</table>
