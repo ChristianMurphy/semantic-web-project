@@ -8,9 +8,9 @@
 	</th>
 	</thead>
 	<tbody>
-	<tr ng-repeat="x in items | allowedPredicates">
+	<tr ng-repeat="x in items | allowedNutrients" id="20">
 		<td>
-			{{ x.nutrient.value | properName }}
+			{{ x.nutrient.value | actualNutrients }}
 		</td>
 		<td>
 			{{ x.nutritionContent.value }}

@@ -10,7 +10,9 @@
 	<tbody>
 		<tr ng-repeat="x in items | allowedPredicates">
 			<td>
+				<a ng-href="#/ingredient?id={{20}}">
 				{{ x.attribute.value | properName }}
+				</a>
 			</td>
 			<td>
 				{{ x.value.value }}

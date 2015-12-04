@@ -4,7 +4,47 @@ yummyControllers.filter('properName', function () {
 	return function (input) {
 		var mapping = {
 			'http://www.semanticweb.org/team-1/yummy-app#hasIngredient': 'ingredient',
-			'http://127.0.0.1:3333/hasDishName': 'name',
+			//'http://127.0.0.1:3333/hasDishName': 'name',
+			//'http://www.semanticweb.org/team-1/yummy-app#hasSolidFats': 'solid fat',
+			//'http://www.semanticweb.org/team-1/yummy-app#hasSaturatedFats': 'saturated fat',
+			//'http://127.0.0.1:3333/hasCuisine': 'cuisine',
+			//'http://127.0.0.1:3333/hasAlcohols': 'alochol content',
+			//'http://127.0.0.1:3333/hasCalories': 'calories'
+		};
+		return mapping[input];
+	};
+});
+
+yummyControllers.filter('allowedPredicates', function () {
+	return function (input) {
+		var allowed = [
+			'http://www.semanticweb.org/team-1/yummy-app#hasIngredient',
+			//'http://127.0.0.1:3333/hasDishName',
+			//'http://www.semanticweb.org/team-1/yummy-app#hasSolidFats',
+			//'http://www.semanticweb.org/team-1/yummy-app#hasSaturatedFats',
+			//'http://127.0.0.1:3333/hasCuisine',
+			//'http://127.0.0.1:3333/hasAlcohols',
+			//'http://127.0.0.1:3333/hasCalories'
+		];
+
+		var final = [];
+
+		for (var index = 0; index < input.length; index++) {
+			if (allowed.indexOf(input[index].attribute.value) >= 0) {
+				final.push(input[index]);
+			}
+		}
+
+		return final;
+	};
+});
+
+//For Nutrition Data
+yummyControllers.filter('actualNutrients', function () {
+	return function (input) {
+		var mapping = {
+			//'http://www.semanticweb.org/team-1/yummy-app#hasIngredient': 'ingredient',
+			//'http://127.0.0.1:3333/hasDishName': 'name',
 			'http://www.semanticweb.org/team-1/yummy-app#hasSolidFats': 'solid fat',
 			'http://www.semanticweb.org/team-1/yummy-app#hasSaturatedFats': 'saturated fat',
 			'http://127.0.0.1:3333/hasCuisine': 'cuisine',
@@ -15,11 +55,11 @@ yummyControllers.filter('properName', function () {
 	};
 });
 
-yummyControllers.filter('allowedPredicates', function () {
+yummyControllers.filter('allowedNutrients', function () {
 	return function (input) {
 		var allowed = [
-			'http://www.semanticweb.org/team-1/yummy-app#hasIngredient',
-			'http://127.0.0.1:3333/hasDishName',
+			//'http://www.semanticweb.org/team-1/yummy-app#hasIngredient',
+			//'http://127.0.0.1:3333/hasDishName',
 			'http://www.semanticweb.org/team-1/yummy-app#hasSolidFats',
 			'http://www.semanticweb.org/team-1/yummy-app#hasSaturatedFats',
 			'http://127.0.0.1:3333/hasCuisine',
@@ -30,7 +70,7 @@ yummyControllers.filter('allowedPredicates', function () {
 		var final = [];
 
 		for (var index = 0; index < input.length; index++) {
-			if (allowed.indexOf(input[index].attribute.value) >= 0) {
+			if (allowed.indexOf(input[index].nutrient.value) >= 0) {
 				final.push(input[index]);
 			}
 		}
@@ -112,5 +152,20 @@ yummyControllers.controller('DishController', ['$scope', '$routeParams',
 			$scope.items = data.results.bindings;
 			$scope.$apply();
 		});
+	}
+]);
+yummyControllers.controller('IngredientController', ['$scope', '$routeParams',
+	function ($scope, $routeParams) {
+		// Find Ingredient Details
+		$scope.items = [];
+		$.ajax({
+				url: 'http://159.203.251.131:8000/yummy/query',
+				method: 'POST',
+				data: 'query=SELECT ?attribute ?value WHERE {?dish <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "' + $routeParams.id + '". ?dish ?attribute ?value.}'
+			})
+			.done(function (data) {
+				$scope.items = data.results.bindings;
+				$scope.$apply();
+			});
 	}
 ]);
