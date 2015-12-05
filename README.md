@@ -9,10 +9,7 @@ Set Up
 
 Run
 ---------
-- run the index.html 
-
-(or)
-
 - The application has been hosted via github pages for ease of execution
-
-    *Here is the link:* https://christianmurphy.github.io/semantic-web-project/#/ 
+    *Here is the link to the app:* https://christianmurphy.github.io/semantic-web-project/#/
+- The fuseki server is hosted using Digital ocean server
+    *Here is the link to the fuseki server:* http://159.203.251.131:3030/
