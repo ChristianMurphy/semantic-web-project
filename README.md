@@ -9,9 +9,14 @@ Set Up
 
 Run
 ---------
-- The application has been hosted via github pages for ease of execution.
-    *Here is the link to the app:* https://christianmurphy.github.io/semantic-web-project/#/
-- The fuseki server is hosted using Digital ocean server.
-    *Here is the link to the fuseki server:* http://159.203.251.131:3030/
 
-- **Click on the link to the app to run the app**
+- **Click on the link to the app to run the app**: https://christianmurphy.github.io/semantic-web-project/#/
+
+- Upon opening the link, click on the shield icon on the address bar of browser and load unsafe scripts. 
+
+- app runs now :smiley:
+
+Information
+-------------
+- The application has been hosted via Github Pages
+- The fuseki server is hosted using Digital Ocean server.
