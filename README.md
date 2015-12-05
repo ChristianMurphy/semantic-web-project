@@ -20,3 +20,7 @@ Information
 -------------
 - The application has been hosted via Github Pages
 - The fuseki server is hosted using Digital Ocean server.
+
+Video Link
+-------------
+https://www.youtube.com/watch?v=gH2pdFBukDc
